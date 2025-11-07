@@ -1,0 +1,28 @@
+p {
+    color: red;
+    text-align: center;
+
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+tr:nth-last-child(even) {
+    background-color: #0df1cb;
+}
+
+th {
+    background-color: #00992e;
+    color: white;
+}
+
+td:hover {
+    background-color: rgb(255, 0, 0);
+}
